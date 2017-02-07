@@ -81,6 +81,7 @@ GEM
     nio4r (1.2.1)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
+    open_uri_redirections (0.2.1)
     pg (0.19.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -163,6 +164,7 @@ DEPENDENCIES
   active_model_serializers!
   listen (~> 3.0.5)
   nokogiri (~> 1.7, >= 1.7.0.1)
+  open_uri_redirections
   pg
   pry
   puma (~> 3.0)

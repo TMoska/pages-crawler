@@ -17,7 +17,7 @@ class PagesController < ApplicationController
   end
 
   def create
-    body = URI.parse(params[:url]).read
+    body = open(URI.parse(params[:url]), allow_redirections: :all)
     page_data = Nokogiri::HTML(body)
     if (!(page = Page.find_by(url: params[:url])))
       page = Page.create(url_params)

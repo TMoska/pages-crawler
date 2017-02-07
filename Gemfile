@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'open_uri_redirections'
 gem 'rails', '~> 5.0.1'
 gem 'puma', '~> 3.0'
 # gem 'rack-cors'
