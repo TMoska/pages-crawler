@@ -8,6 +8,7 @@ gem 'nokogiri', '~> 1.7', '>= 1.7.0.1'
 gem "active_model_serializers", github: "rails-api/active_model_serializers"
 group :development, :test do
   gem 'sqlite3'
+  gem 'rspec_api_documentation'
   gem 'pry'
   gem 'rspec-rails'
 end
@@ -16,6 +17,10 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+end
+
+group :test do
+  gem 'factory_girl_rails'
 end
 
 group :production do

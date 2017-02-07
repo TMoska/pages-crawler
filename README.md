@@ -3,6 +3,10 @@ pages_crawler - TMoska [![Buld Status](https://travis-ci.org/TMoska/pages-crawle
 
 Small Rails API to crawl contents of url and store some of them
 
+Documentation
+---
+
+Documentation of an API is available [here](https://pages-crawler.herokuapp.com/docs).
 
 Contributing
 ---
@@ -33,6 +37,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
